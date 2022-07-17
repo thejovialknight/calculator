@@ -1,0 +1,56 @@
+#calc-container {
+	padding: 1rem;
+	border-radius: 8px;
+	width: 400px;
+	height: 500px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+}
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.num[data-num="1"] {
+	grid-column: 1;
+	grid-row: 2;
+}

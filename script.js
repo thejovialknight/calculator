@@ -99,6 +99,7 @@ function init() {
 	}
 }
 
+console.log("Version 2: Possible Optimizations");
 const display = document.getElementById("display-text"); 
 let firstOperand = null;
 let secondOperand = null;

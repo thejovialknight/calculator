@@ -4,11 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Calculator</title>
 	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
+	<script src="script.js" defer></script>
 </head>
 	<body>
 		<div id="calc-container">
-			<div id="display"></div>
+			<div id="display">
+				<div id="display-text"></div>
+			</div>
 			<button data-num="1" class="num">1</button>
 			<button data-num="2" class="num">2</button>
 			<button data-num="3" class="num">3</button>
@@ -25,7 +27,7 @@
 			<button id="divide">/</button>
 			<button id="equals">=</button>
 			<button id="clear">C</button>
-			<div id="logo">CALCBOY2000</div>
+			<div id="logo">calc::boy</div>
 		</div>
 	</body>
 </html>

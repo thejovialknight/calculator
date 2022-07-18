@@ -19,7 +19,6 @@ function operate(a, b, operation) {
 }
 
 function updateDisplay() {
-	const display = document.querySelector("#display-text");
 	display.innerHTML = "";
 	if(firstOperand !== null) display.innerHTML += firstOperand;
 	if(currentOperator !== null) display.innerHTML += " " + currentOperator;
@@ -100,6 +99,7 @@ function init() {
 	}
 }
 
+const display = document.getElementById("display-text"); 
 let firstOperand = null;
 let secondOperand = null;
 let currentOperator = null;
